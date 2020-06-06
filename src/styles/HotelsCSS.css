@@ -1,0 +1,48 @@
+.hotels{
+    justify-content: space-between;
+    display: flex;
+}
+
+.restPic{
+width: 32%;
+margin-bottom: 2%;
+padding: 20px 10px;
+white-space: nowrap; 
+width: 350px; 
+overflow: hidden;
+text-overflow: ellipsis; 
+
+}
+
+.content-ellipsis {  
+white-space: nowrap; 
+width: 350px; 
+overflow: hidden;
+text-overflow: ellipsis; 
+border:1px solid;
+}
+
+.content-ellipsis p{  
+overflow: hidden;
+text-overflow: ellipsis; 
+
+}
+
+.content-ellipsis i{  
+overflow: hidden;
+text-overflow: ellipsis;  
+}
+
+.header {
+    overflow: hidden;
+    background-color: #bd031a;
+    padding: 20px 10px;
+  }
+.user{
+    border-radius: 50%;
+}  
+.header-right {
+    float: right;
+    font-size: 50px;
+    color:white;
+  }
